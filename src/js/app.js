@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 20
         },
         "image": {
           "src": "img/github.svg",
@@ -41,11 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "size": {
-        "value": 3,
+        "value": 5,
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 19.18081918081918,
+          "speed": 19,
           "size_min": 0.1,
           "sync": false
         }
