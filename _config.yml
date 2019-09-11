@@ -1,13 +1,13 @@
 # Site settings
 title: Francesca Capel
-description: Francesca Capel - Astrophysics Ph.D. Student
+description: Francesca Capel - Astrophysics PhD Student
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Francesca Capel
-user_description: Astrophysics Ph.D. Student
-user_title: Astrophysics Ph.D. Student
+user_description: Astrophysics PhD Student
+user_title: Astrophysics PhD Student
 email: capel@kth.se
 #twitter_username: 
 github_username:  cescalara
