@@ -10,11 +10,11 @@ user_description: Astrophysics PhD Student
 user_title: Astrophysics PhD Student
 email: capel@kth.se
 #twitter_username: 
-github_username:  cescalara
+github_username: cescalara
 #gplus_username:
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: UA-154766493-1
 
 exclude: ['package.json', 'src' , 'node_modules']
