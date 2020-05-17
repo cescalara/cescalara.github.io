@@ -1,4 +1,5 @@
 <!-- Google Analytics -->
+<!--
 {% if site.google-analytics %}
 <script>
 var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -12,3 +13,15 @@ ga('send', 'pageview');
 }
 </script>
 {% endif %}
+-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154766493-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154766493-1');
+</script>
+
