@@ -40,8 +40,8 @@ gulp.task('browser-sync', gulp.series(['jekyll-build'], function(done) {
 }));
 
 /*
-* Compile and minify sass
-*/
+ * Compile and minify sass
+ */
 gulp.task('sass', function() {
   return gulp.src('src/styles/**/*.scss')
     .pipe(plumber())
