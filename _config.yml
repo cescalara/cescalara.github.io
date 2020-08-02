@@ -1,14 +1,14 @@
 # Site settings
 title: Francesca Capel
-description: Francesca Capel - Astrophysics PhD Student
+description: Francesca Capel - Astrophysicist
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "http://francescacapel.com" 
 
 # User settings
 username: Francesca Capel
-user_description: Astrophysics PhD Student
-user_title: Astrophysics PhD Student
-email: capel@kth.se
+user_description: Astrophysicist
+user_title: Astrophysicist
+email: f.capel@tum.de
 #twitter_username: 
 github_username: cescalara
 #gplus_username:
