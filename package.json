@@ -2,6 +2,7 @@
   "name": "particle",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
@@ -10,14 +11,20 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.26.3",
+    "chokidar": "^3.5.3",
     "core-util-is": "^1.0.2",
-    "gulp": "^4.0.0",
+    "fsevents": "^2.3.2",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
-    "gulp-imagemin": "^5.0.3",
+    "gulp-imagemin": "^8.0.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.1",
+    "node-gyp": "^9.0.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.11",
+    "uuid": "^8.3.2",
     "yarn": "^1.22.10"
   },
   "resolutions": {
