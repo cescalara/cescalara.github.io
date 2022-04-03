@@ -1,13 +1,15 @@
-var gulp = require('gulp');
-var csso = require('gulp-csso');
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
-var sass = require('gulp-sass');
-var plumber = require('gulp-plumber');
-var cp = require('child_process');
-var imagemin = require('gulp-imagemin');
-var browserSync = require('browser-sync');
+import gulp from "gulp";
+import csso from "gulp-csso";
+import uglify from "gulp-uglify";
+import concat from "gulp-concat";
+import gulpSass from "gulp-sass";
+import execSass from "sass";
+import plumber from "gulp-plumber";
+import cp from "child_process";
+import imagemin from "gulp-imagemin";
+import browserSync from "browser-sync";
 
+const sass = gulpSass(execSass);
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
 /*
